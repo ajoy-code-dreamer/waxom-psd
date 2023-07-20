@@ -1,0 +1,707 @@
+/* ======== responsive css ======== */
+/* ========================= device (xs 0 > 576) ========================= */
+@media (max-width: 575.98px) {
+	/* === navbar === */
+	#navbar {
+		padding: 10px 0;
+		background-color: #191919;
+	}
+	.navbar-brand img {
+		width: 60%;
+	}
+	.menu {
+		text-align: center;
+		row-gap: 10px;
+		margin-bottom: 15px;
+	}
+	/* === navbar === */
+	/* === banner === */
+	#banner {
+		padding: 200px 0;
+	}
+	.banner_wrapper > h3 {
+		font-size: 30px;
+	}
+	.banner_wrapper > h2 {
+		font-size: 40px;
+		line-height: 1.2;
+	}
+	.banner_wrapper > h5 {
+		padding: unset;
+		padding-bottom: 35px;
+	}
+	.common_btn > a {
+		padding: 10px 20px;
+	}
+	/* === banner === */
+	/* === service === */
+	#service {
+		padding: 40px 0;
+	}
+	/* === service === */
+	/* === feature === */
+	#features {
+		padding-top: 50px;
+	}
+	.section_common_heading .section_heading > h2 {
+		padding-bottom: 15px;
+		line-height: 1.2;
+	}
+	.section_common_heading .section_details > p {
+		padding: 0px 0px;
+		padding-bottom: 40px;
+		line-height: 1.4;
+	}
+	/* === feature === */
+	/* === pricing === */
+	#pricing {
+		padding: 30px 0;
+		text-align: center;
+	}
+	.theme_details > h2 {
+		line-height: 1.2;
+	}
+	.theme_details > p {
+		font-size: 16px;
+		line-height: 1.2;
+	}
+	#pricing .common_btn {
+		margin: 0 auto !important;
+	}
+	/* === pricing === */
+	/* === projects === */
+	#projects {
+		padding: 50px 0;
+	}
+	.project_category > a {
+		padding: 6px 15px;
+	}
+	.project_item {
+		width: 270px;
+	}
+	.project_item .project_img {
+		height: 180px;
+	}
+	.project_details {
+		margin: 20px !important;
+	}
+	.project_details::after {
+		top: -49px;
+	}
+	.project_item_wrapper {
+		margin: 40px 0 20px 0;
+	}
+	/* === projects === */
+	/* === presentation === */
+	#presentation {
+		padding: 110px 0 100px 0;
+	}
+	.presentation_details h2 {
+		padding: 25px 0 15px 0;
+		line-height: 1.2;
+	}
+	.presentation_icon {
+		width: 40px;
+		height: 40px;
+	}
+	.presentation_icon a {
+		font-size: 13px;
+	}
+	.presentation_details p {
+		line-height: 1.2;
+		padding: 0 0px;
+	}
+	/* === presentation === */
+	/* === portfolio === */
+	#portfolio {
+		padding: 50px 0;
+	}
+	.portfolio_img {
+		width: auto;
+		height: auto;
+		margin: 0 auto;
+	}
+	.portfolio_details {
+		width: auto;
+		padding: 0;
+		text-align: center;
+	}
+	.portfolio_details > h2 {
+		line-height: 1.2;
+		padding-bottom: 20px;
+	}
+	.portfolio_details > p {
+		padding: 0px 0px 20px 0px;
+	}
+	.portfolio_details ul li {
+		line-height: 1.2;
+		padding: 0px 0 0px 20px;
+		margin-left: 10px;
+		margin-top: 20px;
+		text-align: left;
+	}
+	.portfolio_details ul li span {
+		left: -10px;
+		top: 50%;
+	}
+	/* === portfolio === */
+	/* === counter === */
+	.counter_item .counter_icon {
+		font-size: 40px;
+		padding-bottom: 0px;
+	}
+	.counter_item .counter_details h2 {
+		font-size: 45px;
+		padding-bottom: 0px;
+	}
+	.counter_item .counter_details p {
+		line-height: 1.2;
+	}
+	.counter_item::after {
+		bottom: -10px;
+	}
+	/* === counter === */
+	/* === new post === */
+	#recent_post {
+		padding: 50px 0;
+	}
+	.post_item {
+		width: 270px;
+	}
+	.post_item .post_img {
+		height: 180px;
+	}
+	.post_details {
+		margin: 20px !important;
+	}
+	.post_item .post_details > h3{
+		line-height: 1.2;
+		padding-bottom: 10px;
+	} 
+	.post_item .post_details > p {
+		line-height: 1.2;
+		padding-bottom: 15px;
+	}
+	/* === new post === */
+	/* === branding === */
+	#branding {
+		padding: 60px 0;
+	}
+	.branding_img{
+		width: 200px;
+	}
+	/* === branding === */
+	/* === contact === */
+	#contact {
+		padding: 50px 0;
+	}
+	.footer_item {
+		width: 270px;
+	}
+	/* === contact === */
+		/* === footer === */
+		footer {
+			padding: 20px 0;
+		}
+		.copyright_item {
+			row-gap: 20px;
+			justify-content: center;
+		}
+		.copyright_wrapper ul {
+			column-gap: 15px;
+			margin: 0 auto;
+		}
+		/* === footer === */
+}
+
+/* ========================= device (xs 0 > 576) ========================= */
+
+/* ========================= device (sm 576 > 768) ========================= */
+@media (min-width: 576px) and (max-width: 767.98px) {
+	/* === navbar === */
+	#navbar {
+		padding: 15px 0;
+		background-color: #191919;
+	}
+	.navbar-brand img {
+		width: 70%;
+	}
+	.menu {
+		text-align: center;
+		row-gap: 10px;
+		margin-bottom: 15px;
+	}
+	/* === navbar === */
+	/* === banner === */
+	#banner {
+		padding: 200px 0;
+	}
+	.banner_wrapper > h3 {
+		font-size: 30px;
+	}
+	.banner_wrapper > h2 {
+		font-size: 40px;
+		line-height: 1.2;
+	}
+	.banner_wrapper > h5 {
+		padding: unset;
+		padding-bottom: 35px;
+	}
+	.common_btn > a {
+		padding: 10px 20px;
+	}
+	/* === banner === */
+	/* === service === */
+	#service {
+		padding: 50px 0;
+	}
+	/* === service === */
+	/* === feature === */
+	#features {
+		padding-top: 50px;
+	}
+	.section_common_heading .section_heading > h2 {
+		padding-bottom: 15px;
+		line-height: 1.2;
+	}
+	.section_common_heading .section_details > p {
+		padding: 0px 0px;
+		padding-bottom: 40px;
+		line-height: 1.4;
+	}
+	/* === feature === */
+	/* === pricing === */
+	#pricing {
+		padding: 30px 0;
+		text-align: center;
+	}
+	.theme_details > h2 {
+		line-height: 1.2;
+	}
+	.theme_details > p {
+		font-size: 16px;
+		line-height: 1.2;
+	}
+	#pricing .common_btn {
+		margin: 0 auto !important;
+	}
+	/* === pricing === */
+	/* === projects === */
+	#projects {
+		padding: 50px 0;
+	}
+	.project_category > a {
+		padding: 6px 15px;
+	}
+	.project_item {
+		width: 230px;
+	}
+	.project_item .project_img {
+		height: 160px;
+	}
+	.project_details {
+		margin: 10px !important;
+	}
+	.project_details::after {
+		top: -49px;
+	}
+	.project_item_wrapper {
+		margin: 40px 0 20px 0;
+	}
+	/* === projects === */
+	/* === presentation === */
+	#presentation {
+		padding: 110px 0 100px 0;
+	}
+	.presentation_details h2 {
+		padding: 25px 0 15px 0;
+		line-height: 1.2;
+	}
+	.presentation_icon {
+		width: 40px;
+		height: 40px;
+	}
+	.presentation_icon a {
+		font-size: 13px;
+	}
+	.presentation_details p {
+		line-height: 1.2;
+		padding: 0 0px;
+	}
+	/* === presentation === */
+	/* === portfolio === */
+	#portfolio {
+		padding: 50px 0;
+	}
+	.portfolio_img {
+		width: auto;
+		height: auto;
+		margin: 0 auto;
+	}
+	.portfolio_details {
+		width: auto;
+		padding: 0;
+		text-align: center;
+	}
+	.portfolio_details > h2 {
+		padding-bottom: 20px;
+	}
+	.portfolio_details > p {
+		padding: 0px 0px 20px 0px;
+	}
+	.portfolio_details ul li {
+		line-height: 1.2;
+		margin-left: 40px;
+		text-align: left;
+	}
+	/* === portfolio === */
+	/* === counter === */
+	.counter_item .counter_icon {
+		font-size: 40px;
+		padding-bottom: 0px;
+	}
+	.counter_item .counter_details h2 {
+		font-size: 45px;
+		padding-bottom: 0px;
+	}
+	.counter_item .counter_details p {
+		line-height: 1.2;
+	}
+	.counter_item::after {
+		bottom: -10px;
+	}
+	/* === counter === */
+	/* === new post === */
+	#recent_post {
+		padding: 50px 0;
+	}
+	/* === new post === */
+	/* === branding === */
+	#branding {
+		padding: 60px 0;
+	}
+	.branding_img{
+		width: 250px;
+	}
+	/* === branding === */
+	/* === contact === */
+	#contact {
+		padding: 50px 0;
+	}
+	.footer_item {
+		width: auto;
+	}
+	/* === contact === */
+
+}
+
+/* ========================= device (sm 576 > 768) ========================= */
+
+/* ========================= device (md 768 > 992) ========================= */
+@media (min-width: 768px) and (max-width: 991.98px) {
+	/* === navbar === */
+	#navbar {
+		padding: 15px 0;
+		background-color: #191919;
+	}
+	.navbar-brand img {
+		width: 70%;
+	}
+	.menu {
+		text-align: center;
+		row-gap: 10px;
+		margin-bottom: 15px;
+	}
+	/* === navbar === */
+	/* === banner === */
+	#banner {
+		padding: 250px 0;
+	}
+	.banner_wrapper > h3 {
+		font-size: 32px;
+	}
+	.banner_wrapper > h2 {
+		font-size: 45px;
+		line-height: 1.2;
+	}
+	.banner_wrapper > h5 {
+		padding: unset;
+		padding-bottom: 45px;
+	}
+	.common_btn > a {
+		padding: 12px 20px;
+	}
+	/* === banner === */
+	/* === feature === */
+	#features {
+		padding-top: 50px;
+	}
+	.section_common_heading .section_heading > h2 {
+		padding-bottom: 15px;
+		line-height: 1.2;
+	}
+	.section_common_heading .section_details > p {
+		padding: 0px 0px;
+		padding-bottom: 40px;
+		line-height: 1.4;
+	}
+	/* === feature === */
+	/* === pricing === */
+	.theme_details > h2 {
+		font-size: 25px;
+	}
+	.theme_details > p {
+		font-size: 16px;
+	}
+	/* === pricing === */
+	/* === projects === */
+	#projects {
+		padding: 50px 0;
+	}
+	.project_category > a {
+		padding: 6px 15px;
+	}
+	.project_item {
+		width: 300px;
+	}
+	.project_item .project_img {
+		height: 200px;
+	}
+	.project_details {
+		margin: 20px !important;
+	}
+	.project_details::after {
+		top: -49px;
+	}
+	.project_item_wrapper {
+		margin: 40px 0 20px 0;
+	}
+	.section_common_heading .section_details > p {
+		padding-bottom: 20px;
+	}
+	/* === projects === */
+	/* === presentation === */
+	#presentation {
+		padding: 110px 0 100px 0;
+	}
+	.presentation_details h2 {
+		padding: 25px 0 15px 0;
+	}
+	.presentation_icon {
+		width: 50px;
+		height: 50px;
+	}
+	.presentation_icon a {
+		font-size: 18px;
+	}
+	.presentation_details p {
+		line-height: 1.2;
+		padding: 0 0px;
+	}
+	/* === presentation === */
+	/* === counter === */
+	.counter_item .counter_icon {
+		font-size: 40px;
+		padding-bottom: 0px;
+	}
+	.counter_item .counter_details h2 {
+		font-size: 45px;
+		padding-bottom: 0px;
+	}
+	.counter_item .counter_details p {
+		line-height: 1.2;
+	}
+	.counter_item::after {
+		bottom: -10px;
+	}
+	/* === counter === */
+	/* === new post === */
+	#recent_post {
+		padding: 50px 0;
+	}
+	.post_item {
+		width: 320px;
+	}
+	.post_item .post_img {
+		height: 200px;
+	}
+	.post_details {
+		margin: 20px !important;
+	}
+	.post_item .post_details > h3{
+		line-height: 1.2;
+		padding-bottom: 10px;
+	} 
+	.post_item .post_details > p {
+		line-height: 1.2;
+		padding-bottom: 15px;
+	}
+	/* === new post === */
+	/* === branding === */
+	#branding {
+		padding: 60px 0;
+	}
+	.branding_img{
+		width: 250px;
+	}
+	/* === branding === */
+	/* === contact === */
+	#contact {
+		padding: 50px 0;
+	}
+	.footer_item {
+		width: auto;
+	}
+	/* === contact === */
+	
+
+}
+
+/* ========================= device (md 768 > 992) ========================= */
+
+/* ========================= device (lg 992 > 1200) ========================= */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+	/* === navbar === */
+	#navbar {
+		padding: 20px 0;
+	}
+	.navbar-brand img {
+		width: 80%;
+	}
+	.menu {
+		column-gap: 25px;
+	}
+	/* === navbar === */
+	/* === banner === */
+	#banner {
+		padding: 250px 0;
+	}
+	.banner_wrapper > h2 {
+		font-size: 50px;
+	}
+	.banner_wrapper > h5 {
+		padding: 0px 250px;
+		padding-bottom: 55px;
+	}
+	/* === banner === */
+	/* === project === */
+	.project_item {
+		width: 280px;
+	}
+	.project_item .project_img {
+		height: 180px;
+	}
+	.project_details,
+	.post_details {
+		margin: 20px !important;
+	}
+	.project_details::after {
+		top: -49px;
+	}
+	/* === presentation === */
+	/* === project === */
+	.presentation_details p {
+		padding: 0 180px;
+	}
+	/* === presentation === */
+	/* === portfolio === */
+	.portfolio_img {
+		width: auto;
+		height: auto;
+		margin: 0 auto;
+	}
+	.portfolio_details {
+		width: auto;
+		padding: 0;
+	}
+	/* === portfolio === */
+	/* === new post === */
+	.post_item {
+		width: 280px;
+	}
+	.post_item .post_img {
+		height: 180px;
+	}
+	.post_details {
+		margin: 20px !important;
+	}
+	.post_item .post_details > h3{
+		line-height: 1.2;
+		padding-bottom: 10px;
+	} 
+	.post_item .post_details > p {
+		line-height: 1.2;
+		padding-bottom: 15px;
+	}
+	/* === new post === */
+	/* === branding === */
+	#branding {
+		padding: 60px 0;
+	}
+	.branding_img{
+		width: 200px;
+	}
+	/* === branding === */
+	/* === contact === */
+	#contact {
+		padding: 50px 0;
+	}
+	.footer_item {
+		width: auto;
+	}
+	/* === contact === */
+	/* === footer === */
+	footer{
+		text-align: center;
+	}
+	.copyright_item p{
+		display: block;
+	}
+	.copyright_item {
+		column-gap: 10px;
+	}
+	/* === footer === */
+}
+
+/* ========================= device (lg 992 > 1200) ========================= */
+
+/* ========================= device (xl 1200 > 1400) ========================= */
+@media (min-width: 1200px) and (max-width: 1400px) {
+	/* === navbar === */
+	#navbar {
+		padding: 25px 0;
+	}
+
+	/* === navbar === */
+	/* === project === */
+	.project_item {
+		width: 330px;
+	}
+	/* === project === */
+	/* === portfolio === */
+	.portfolio_img {
+		width: auto;
+		height: auto;
+		margin: 0 auto;
+	}
+	.portfolio_details {
+		width: auto;
+		padding: 0;
+	}
+	/* === portfolio === */
+	/* === branding === */
+	.branding_img{
+		width: 250px;
+	}
+	/* === branding === */
+}
+
+/* ========================= device (xl 1200 > 1400) ========================= */
+/* ========================= device (xxl 1400 >>) ========================= */
+@media (min-width: 1400px) {
+}
+
+/* ========================= device (xxl 1400 >>) ========================= */
+/* ======== responsive css ======== */
+
+/* ===== design by AJOY SAHA ===== */
